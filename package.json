@@ -14,13 +14,7 @@
     "angulartics": "~0.17.1",
     "json3": "~3.2.4",
     "bootstrap": "~3.1.1",
-    "es5-shim": "~2.0.8"
-  },
-  "devDependencies": {
-    "angular-mocks": "~1.4.0",
-    "angular-scenario": "~1.4.0",
-    "commitizen": "2.9.6",
-    "cz-conventional-changelog": "2.0.0",
+    "es5-shim": "~2.0.8",
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.13",
     "grunt-contrib-clean": "~0.5.0",
@@ -35,7 +29,13 @@
     "grunt-karma": "^0.12.0",
     "grunt-ngdocs": "~0.2.1",
     "grunt-open": "~0.2.0",
-    "grunt-release": "~0.7.0",
+    "grunt-release": "~0.7.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.0",
+    "angular-scenario": "~1.4.0",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
     "http-server": "0.9.0",
     "jasmine-core": "^2.3.4",
     "karma": "~0.13.0",
@@ -55,7 +55,7 @@
     "prebuild": "npm run clean",
     "build": "grunt",
     "postbuild": "grunt docs",
-    "postinstall": "npm install grunt && npm run build",
+    "postinstall": "npm run build",
     "build:travis": "grunt",
     "precommit": "npm test",
     "commit": "git-cz",
