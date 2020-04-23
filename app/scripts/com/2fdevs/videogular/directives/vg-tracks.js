@@ -70,7 +70,7 @@ angular.module("com.2fdevs.videogular")
                                     API.mediaElement[0].textTracks[i].mode = 'showing';
                                 }
                                 else {
-                                    API.mediaElement[0].textTracks[i].mode = 'disabled';
+                                    API.mediaElement[0].textTracks[i].mode = 'hidden';
                                 }
                             }
 
