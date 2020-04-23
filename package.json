@@ -55,6 +55,7 @@
     "prebuild": "npm run clean",
     "build": "grunt",
     "postbuild": "grunt docs",
+    "postinstall": "npm run build",
     "build:travis": "grunt",
     "precommit": "npm test",
     "commit": "git-cz",
