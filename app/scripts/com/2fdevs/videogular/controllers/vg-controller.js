@@ -82,6 +82,7 @@ angular.module("com.2fdevs.videogular")
         this.videogularElement = null;
 
         this.clearMedia = function () {
+            console.log('[videogular] clear media');
             try {
                 this.mediaElement[0].pause();
                 this.mediaElement[0].removeAttribute('src');
